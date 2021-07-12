@@ -12,13 +12,23 @@ body {
     background-color: #d9dcd6;
 }
 
-a {
-    color: #ffffff;
+.contact a {
+    color: #273131;
     text-decoration: none;
+    
 }
 
-p {
+ a {
+    color: #ffffff;
+    text-decoration: none;
+    
+    
+
+}
+
+.main p {
     font-size: 16px;
+    color:#595d69
 }
 
 /* Distribution Styles */
@@ -37,8 +47,8 @@ p {
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    font-family: 'League Spartan', Arial, sans-serif;
+    background-color: #E61A5C;
     color: #ffffff;
 }
 
@@ -54,7 +64,7 @@ p {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     font-size: 20px;
 }
 
@@ -70,8 +80,13 @@ p {
 /* Main Banner Styles */
 
 .main {
+
+   
+
+  
+    font-family: 'League Spartan', sans-serif;
     padding:5%;
-    height: 250px;
+    /* height: 250px; */
     width: 100%;
     margin-bottom: 25px;
     /* background-image: url("../images/digital-marketing-meeting.jpg"); */
@@ -82,21 +97,46 @@ p {
 /* Content section Styles */
 
 .content {
-    width: 75%;
+    width: 97%;
     display: inline-block;
     margin-left: 20px;
+
+    /* Turns this element into a flexbox */
+    display: flex;
+    /* Forces elements to the next line if they don't fit */
+    flex-wrap: wrap;
+    margin-top: 2%;
+    
 }
 
 /* Search Engine Optimization INFO */
+
+#ligap1{
+    flex: 1 1 200px;
+    
+    border-width: 1px; 
+}
 
 .proyecto1 {
     margin-bottom: 20px;
     background-image: url("http://www.slate.com/content/dam/slideshows/arts/architecture/2012/02/10/the-worlds-biggest-buildings/jcr%3acontent/slideshow/0/images%252Fslides%252F1_Makkah_Clock_Royal_Tower.jpg");
     padding: 0px;
-    height: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    font-family: 'League Spartan', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
+    margin:5px;
+
+    /*Avoid image repeat*/
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+
+
+    flex: 1 1 200px;
+    
+    border-width: 1px; 
 }
 
 .arquitectura {
@@ -115,14 +155,30 @@ p {
 
 }
 
+#ligap2{
+    flex: 1 1 200px;
+    
+    border-width: 1px; 
+}
+
 .proyecto2 {
     margin-bottom: 20px;
     background-image: url("https://i.blogs.es/6449f7/espinof-peliculas-mas-esperadas-estrenos-cine-2018/840_560.jpg");
     padding: 0px;
-    height: 100px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    font-family: 'League Spartan', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
+    margin:5px;
+
+    /*Avoid image repeat*/
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+    flex: 1 1 200px;
+   
+    border-width: 1px; 
 }
 
 .peliculas {
@@ -140,14 +196,29 @@ p {
     
 }
 
+#ligap3{
+    flex: 1 1 200px;
+    
+    border-width: 1px; 
+}
 .proyecto3 {
     margin-bottom: 20px;
     background-image: url("https://fundaciondelcorazon.com/images/stories/iStock-949190756.jpg");
     padding: 0px;
-    height: 100px;
+    height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
+    margin:5px;
+
+    /*Avoid image repeat*/
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+    flex: 1 1 200px;
+    
+    border-width: 1px; 
 }
 
 .deportes {
@@ -166,83 +237,43 @@ p {
 }
 
 
+.contact{
 
-/* Lateral Content Section */
+    font-family: 'League Spartan', sans-serif;
+    padding:5%;
+    
+    width: 100%;
+    margin-bottom: 25px;
+    
+    
 
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+}
+/*Dynamics for resizing*/
+
+@media screen and (max-width: 992px) {
+    .header {
+      background-color: #595d69;
+    }
+  }
+  
+  
+  
+.contact h2:hover::after {
+    
+    content: "\2765";
+
+  color: #000000;
+  padding: 1%;
+  
+  display: inline;
 }
 
-/* Lead INFO Style */
+.contact p:hover::after {
+    content: '\2740';
+    color: #000000;
+    padding: 1%;
+   
+    display: inline;
+  }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Brand INFO Style */
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Cost INFO Style */
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* Footer Styles */
-
-.contact {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
-}
-
-.contact h2 {
-    font-size: 20px;
-}
