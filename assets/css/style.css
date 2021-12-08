@@ -119,7 +119,7 @@ body {
 
 .proyecto1 {
     margin-bottom: 20px;
-    background-image: url("http://www.slate.com/content/dam/slideshows/arts/architecture/2012/02/10/the-worlds-biggest-buildings/jcr%3acontent/slideshow/0/images%252Fslides%252F1_Makkah_Clock_Royal_Tower.jpg");
+    background-image: url("images/B1.png");
     padding: 0px;
     height: 200px;
     font-family: 'League Spartan', sans-serif;
@@ -150,7 +150,7 @@ body {
 
 .proyecto1:hover {
     
-    background-image: url("http://www.slate.com/content/dam/slideshows/arts/architecture/2012/02/10/the-worlds-biggest-buildings/jcr%3acontent/slideshow/3/images%252Fslides%252F4_Burj_Khalifa.jpg");
+    background-image: url("images/B2.png");
     
 
 }
@@ -163,7 +163,7 @@ body {
 
 .proyecto2 {
     margin-bottom: 20px;
-    background-image: url("https://i.blogs.es/6449f7/espinof-peliculas-mas-esperadas-estrenos-cine-2018/840_560.jpg");
+    background-image: url("images/OMS1.png");
     padding: 0px;
     height: 200px;
     font-family: 'League Spartan', sans-serif;
@@ -192,7 +192,7 @@ body {
 
 .proyecto2:hover {
     
-    background-image: url("https://www.ecestaticos.com/imagestatic/clipping/e0f/df2/e0fdf234fd63caea1dbee338c3e2f6b5.jpg");
+    background-image: url("images/OMS2.png");
     
 }
 
@@ -203,7 +203,7 @@ body {
 }
 .proyecto3 {
     margin-bottom: 20px;
-    background-image: url("https://fundaciondelcorazon.com/images/stories/iStock-949190756.jpg");
+    background-image: url("images/M1.png");
     padding: 0px;
     height: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -232,7 +232,7 @@ body {
 
 .proyecto3:hover {
     
-    background-image: url("https://www.plasticseurope.org/application/files/4415/1274/2611/5.8._ballgames_shutterstock_217271017_1.png");
+    background-image: url("images/M2.png");
     
 }
 
